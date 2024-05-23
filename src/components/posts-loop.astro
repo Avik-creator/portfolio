@@ -11,7 +11,7 @@ const postsLoop = allPosts.slice(0, count);
 {
 postsLoop.map((post: any) => {
     return (
-      <a href={post.node.url}>
+      <a href={post.node.url} target="_blank" rel="noopener noreferrer">
       <div
         class="relative border border-transparent border-dashed cursor-pointer p-7 group rounded-2xl"
       >

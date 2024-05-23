@@ -15,21 +15,21 @@ import SpeedInsights from '@vercel/speed-insights/astro';
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
-        <h1
-          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
-        >
-          Hello, I'm Avik Mukherjee.
-        </h1>
+        <h2
+          class="mb-5 text-2xl font-bold leading-tight md:text-4xl lg:text-5xl dark:text-white"
+          >Hello!, I'm Avik, a <span id="developer">Developer</span> based in India</h2>
+        <p class="mb-3 text-base text-neutral-600 dark:text-neutral-400">
+          I love building tools that are user-friendly, efficient, and innovative.
+        </p>
+        <p class="mb-3 text-base text-neutral-600 dark:text-neutral-400">
+          I am former child, frontend developer at Auctopus Technologies and Dank. I am a self taught <span id="frontend">frontend</span>, <span id="backend">backend</span> and a <span id="App">App(currently learning)</span> Developer.
+        </p>
+        <p class="mb-3 text-base text-neutral-600 dark:text-neutral-400">
+          Through these experiences, I had the opportunity to work with both small and large, specialized and cross-functional teams across different time zones and developed a working style that leans towards <span id="flexibility">flexibility</span>, <span id="clarity">clarity</span> and <span id="collaboration">collaboration</span>
+        </p>
+        
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a developer living in India. <br
-            class="hidden lg:block"
-          />I focus on Web and App Development. <br class="hidden lg:block" />
-          <span
-            class="hidden lg:block [text-wrap:nowrap]" id="former-child"
-            >Currently a Former Child. <a href="https://drive.google.com/file/d/1A2GSJGwAr2fyRR94Efv3PvnLJwbflVIj/view?usp=sharing" class="bg-gradient-to-r from-orange-600 via-yellow-500 to-amber-400 inline-block text-transparent bg-clip-text" id="hire-me">Hire Me?</a>
-          </span>
-
-            
+          I am currently looking for a new role as a Developer. <span id="hire-me" class="bg-gradient-to-r from-orange-600 via-green-500 to-amber-400 inline-block text-transparent bg-clip-text">Hire me?</span>
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
           I can help you out with:
@@ -43,7 +43,7 @@ import SpeedInsights from '@vercel/speed-insights/astro';
           <li>SwiftUI Development</li>
           <li>and more...</li>
         </ul>
-        <Button text="Follow me on 𝕏" link="https://twitter.com/avikm744" />
+        <Button text="🔭 See My Resume" link="https://drive.google.com/file/d/1A2GSJGwAr2fyRR94Efv3PvnLJwbflVIj/view?usp=sharing" />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -91,9 +91,31 @@ import SpeedInsights from '@vercel/speed-insights/astro';
   import { annotate } from "rough-notation";
 
   const hireme = document.getElementById("hire-me")
-  if(hireme){
+  const developer = document.getElementById("developer")
+  const frontend = document.getElementById("frontend")
+  const backend = document.getElementById("backend")
+  const App = document.getElementById("App")
+  const flexibility = document.getElementById("flexibility")
+  const clarity = document.getElementById("clarity")
+  const collaboration = document.getElementById("collaboration")
+
+  if(hireme && frontend && backend && App && flexibility && clarity && collaboration && developer){
     const annotation = annotate(hireme, { type: "circle", color: "yellow", multiline: true, animationDuration: 10000, animate: true });
+    const frontendAnnotation = annotate(frontend, { type: "highlight", color: "#BEF264", multiline: true, animationDuration: 10000, animate: true });
+    const backendAnnotation = annotate(backend, { type: "highlight", color: "#FDA4AF", multiline: true, animationDuration: 10000, animate: true });
+    const AppAnnotation = annotate(App, { type: "highlight", color: "yellow", multiline: true, animationDuration: 10000, animate: true });
+    const flexibilityAnnotation = annotate(flexibility, { type: "highlight", color: "#FDA4AF", multiline: true, animationDuration: 10000, animate: true });
+    const clarityAnnotation = annotate(clarity, { type: "highlight", color: "yellow", multiline: true, animationDuration: 10000, animate: true });
+    const collaborationAnnotation = annotate(collaboration, { type: "highlight", color: "#BEF264", multiline: true, animationDuration: 10000, animate: true });
+    const developerAnnotation = annotate(developer, { type: "highlight", color: "#FBCFE8", multiline: true, animationDuration: 10000, animate: true });
     annotation.show();
+    frontendAnnotation.show();
+    developerAnnotation.show();
+    backendAnnotation.show();
+    AppAnnotation.show();
+    flexibilityAnnotation.show();
+    clarityAnnotation.show();
+    collaborationAnnotation.show();
   }
 
 </script>
