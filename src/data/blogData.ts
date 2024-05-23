@@ -16,21 +16,11 @@ export const getAllPosts = async () => {
             }
             edges {
               node {
-                author {
-                  name
-                  profilePicture
-                }
                 title
                 subtitle
                 brief
                 slug
-                coverImage {
-                  url
-                }
-                tags {
-                  name
-                  slug
-                }
+                url
                 publishedAt
                 readTimeInMinutes
               }

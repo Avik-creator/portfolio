@@ -1,23 +1,30 @@
 [
 	{
-		"dates": "June 2018 · Present",
+		"dates": "November 2023 . February 2024",
 		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"company": "Dank",
+		"description": "Responsible for front-end development, enhancing app functionality, and optimizing performance, contributing to enriching student experiences and ensuring a seamless educational journey.",
+		"logo": "/assets/images/experiences/Dank.ico"
 	},
 	{
-		"dates": "July 2015 · June 2018",
+		"dates": "June 2023 · August 2023",
 		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"company": "Auctopus Technologies",
+		"description": "Led frontend development efforts at Auctopus Technologies, integrating new features, optimizing performance, and ensuring robust architecture for a comprehensive networking application.",
+		"logo": "/assets/images/experiences/AuctopusTechnologies.ico"
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "November 2022 . February 2023",
+		"role": "Content Writer",
+		"company": "Framed Media",
+		"description": "Technical content writer for Framed Media, creating engaging and informative content for a variety of clients, including blog posts, and articles.",
+		"logo": "/assets/images/experiences/FramedMedia.ico"
+	},
+	{
+		"dates": "August 2022 . November 2023",
+		"role": "Content Writer",
+		"company": "Qwerty Thoughts",
+		"description": "Crafted engaging content centered on Hindu Mythology, Indian History, and Indian Culture, weaving narratives that captivated audiences.",
+		"logo": "/assets/images/experiences/QwertyThoughts.ico"
 	}
 ]

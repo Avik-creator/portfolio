@@ -18,21 +18,33 @@
         "url": "https://coin-mate.vercel.app/"
     },
     {
-        "name": "CoinMate",
-        "description": "Helps in Tracking Cypto Prices",
-        "image": "/assets/images/projects/CoinMate.png",
+        "name": "GifyCode",
+        "description": "A WebApp to convert Code to Gif",
+        "image": "/assets/images/projects/GifyCode.png",
         "url": "https://code-to-picture.vercel.app/"
     },
     {
-        "name": "CoinMate",
-        "description": "Helps in Tracking Cypto Prices",
-        "image": "/assets/images/projects/CoinMate.png",
+        "name": "RentACar",
+        "description": "A Car Rental WebApp",
+        "image": "/assets/images/projects/CarRental.png",
         "url": "https://car-rental-master.vercel.app/"
     },
     {
-        "name": "CoinMate",
-        "description": "Helps in Tracking Cypto Prices",
-        "image": "/assets/images/projects/CoinMate.png",
+        "name": "TravelWebsite",
+        "description": "Landing Page for a Travel Website",
+        "image": "/assets/images/projects/TravelWebsite.png",
         "url": "https://travel-website-fawn-delta.vercel.app/"
+    },
+    {
+        "name": "PinYourInterest",
+        "description": "A PinInterest Clone made using FireBase and ReactJS",
+        "image": "/assets/images/projects/PinYourInterest.png",
+        "url": "https://pin-interest-clone.vercel.app/"
+    },
+    {
+        "name": "TaxiGo",
+        "description": "A Taxi Booking WebApp",
+        "image": "/assets/images/projects/TaxiGo.png",
+        "url": "https://taxi-booking-app-ten.vercel.app/"
     }
 ]

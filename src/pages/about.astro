@@ -1,6 +1,8 @@
 ---
 import experiences from "../collections/experiences.json";
+import volunteerExperiences from "../collections/volunteer.json";
 import AboutExperience from "../components/about-experience.astro";
+import VolunteerExperience from "../components/volunteer-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
@@ -9,7 +11,7 @@ import Layout from "../layouts/main.astro";
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
+      description="Hello 👋 I'm a developer from West Bengal, India. I'm passionate about building new products and learning new technology."
     />
 
     <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
@@ -18,7 +20,7 @@ import Layout from "../layouts/main.astro";
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+      Front-end intermediate 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, mobile development amateur 🤷🏻‍♂️, <span id="currently-learning">currently learning SwiftUI</span>.
     </p>
 
     <h2
@@ -31,7 +33,7 @@ import Layout from "../layouts/main.astro";
         experiences.map((experience, loop) => {
           return (
             <>
-              {loop == 0 || loop == 1 ? (
+              {loop == 0 || loop == 1 || loop == 2 ? (
                 <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
                   <AboutExperience
                     dates={experience.dates}
@@ -55,18 +57,77 @@ import Layout from "../layouts/main.astro";
         })
       }
     </div>
+    <h2
+    class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+  >
+    Volunteer Experience
+  </h2>
+
+    <div class="px-5 py-10">
+      {
+        volunteerExperiences.map((volunteer, loop) => {
+          return (
+            <>
+              {loop == 0 ? (
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                  <VolunteerExperience
+                    dates={volunteer.dates}
+                    role={volunteer.role}
+                    company={volunteer.communityName}
+                    description={volunteer.description}
+                    logo={volunteer.logo}
+                  />
+                </div>
+              ) : (
+                <VolunteerExperience
+                  dates={volunteer.dates}
+                  role={volunteer.role}
+                  company={volunteer.communityName}
+                  description={volunteer.description}
+                  logo={volunteer.logo}
+                />
+              )}
+            </>
+          )
+        })
+      }
+    </div>
 
     <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
       If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
+        href="https://twitter.com/avikm744"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        id="twitter-link"
+        class="text-black-600 underline">follow me on twitter</a
+      >, or <a
+      href="https://linkedin.com/in/avikm744"
+      target="_blank"
+      id="linkedin-link"
+      class="text-black-600 underline">connect on Linkedin</a
+    >, or you can send me an <a href="mailto:avikm744@gmail.com" class="text-black-600 underline" id="email-link"
         >email</a
       > and I'll be sure to get back to you.
     </p>
   </section>
 </Layout>
+
+<script>
+  import { annotate } from "rough-notation";
+  const twitterLink = document.getElementById("twitter-link")
+  const emailLink = document.getElementById("email-link")
+  const linkedInLink = document.getElementById("linkedin-link")
+  const currentlyLearning = document.getElementById("currently-learning")
+  if(twitterLink && emailLink && linkedInLink && currentlyLearning){
+    const twitterAnnotation = annotate(twitterLink, { type: "highlight", color: "yellow", animationDuration: 10000, animate: true });
+    const emailAnnotation = annotate(emailLink, { type: "circle", color: "green", animationDuration: 10000, animate: true});
+    const linkedInAnnotation = annotate(linkedInLink, { type: "box", color: "pink", animationDuration: 10000, animate: true});
+    const learningAnnotation = annotate(currentlyLearning, { type: "underline", color: "orange", animationDuration: 10000, animate: true});
+    twitterAnnotation.show();
+    emailAnnotation.show();
+    linkedInAnnotation.show();
+    learningAnnotation.show();
+  }
+</script>

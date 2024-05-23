@@ -1,0 +1,16 @@
+[
+    {
+        "dates": "July 2023 . Present",
+        "role": "Lead",
+        "communityName": "GDSC MAKAUT",
+        "description": "Serving as the Lead of the GDSC MAKAUT community, I am responsible for managing the community, organizing events, and ensuring the growth and development of the community.",
+        "logo": "/assets/images/volunteer/DSCMAKAUT.jpeg"
+    },
+    {
+        "dates": "July 2022 . July 2023",
+        "role": "Web Developer",
+        "communityName": "REPL Devs",
+        "description": "Serving as a Web Developer at REPL Devs, I am responsible for developing and maintaining the official website of the community.",
+        "logo": "/assets/images/volunteer/ReplDevs.jpeg"
+    }
+]
