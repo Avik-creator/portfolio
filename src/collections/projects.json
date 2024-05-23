@@ -1,20 +1,20 @@
 [
 	{
-		"name": "Email.ML",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
-		"url": "https://email.ml"
+		"name": "SocialSphere",
+		"description": "A SocialMedia Platform.",
+		"image": "/assets/images/projects/SocialSphere.png",
+		"url": "https://social-sphere-rouge.vercel.app/"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "Avik'sBlog",
+		"description": "A Blogging webApp for my Personal Blogs.",
+		"image": "/assets/images/projects/Avik Blog.png",
+		"url": "https://avik-blog.vercel.app/"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "CoinMate",
+		"description": "Helps in Tracking Cypto Prices",
+		"image": "/assets/images/projects/CoinMate.png",
+		"url": "https://coin-mate.vercel.app/"
 	}
 ]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "SocialSphere",
+        "description": "A SocialMedia Platform.",
+        "image": "/assets/images/projects/SocialSphere.png",
+        "url": "https://social-sphere-rouge.vercel.app/"
+    },
+    {
+        "name": "Avik'sBlog",
+        "description": "A Blogging webApp for my Personal Blogs.",
+        "image": "/assets/images/projects/Avik Blog.png",
+        "url": "https://avik-blog.vercel.app/"
+    },
+    {
+        "name": "CoinMate",
+        "description": "Helps in Tracking Cypto Prices",
+        "image": "/assets/images/projects/CoinMate.png",
+        "url": "https://coin-mate.vercel.app/"
+    },
+    {
+        "name": "CoinMate",
+        "description": "Helps in Tracking Cypto Prices",
+        "image": "/assets/images/projects/CoinMate.png",
+        "url": "https://code-to-picture.vercel.app/"
+    },
+    {
+        "name": "CoinMate",
+        "description": "Helps in Tracking Cypto Prices",
+        "image": "/assets/images/projects/CoinMate.png",
+        "url": "https://car-rental-master.vercel.app/"
+    },
+    {
+        "name": "CoinMate",
+        "description": "Helps in Tracking Cypto Prices",
+        "image": "/assets/images/projects/CoinMate.png",
+        "url": "https://travel-website-fawn-delta.vercel.app/"
+    }
+]
