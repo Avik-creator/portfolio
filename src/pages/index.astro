@@ -4,6 +4,7 @@ import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 ---
 
@@ -25,7 +26,7 @@ import Layout from "../layouts/main.astro";
           />I focus on Web and App Development. <br class="hidden lg:block" />
           <span
             class="hidden lg:block [text-wrap:nowrap]" id="former-child"
-            >Currently a Former Child. <a href="https://drive.google.com/file/d/1VqkST-V2JKomey3Xb--QtVhUNErKBRbb/view?usp=sharing" class="text-amber-200" id="hire-me">Hire Me?</a>
+            >Currently a Former Child. <a href="https://drive.google.com/file/d/1VqkST-V2JKomey3Xb--QtVhUNErKBRbb/view?usp=sharing" class="bg-gradient-to-r from-orange-600 via-yellow-500 to-amber-400 inline-block text-transparent bg-clip-text" id="hire-me">Hire Me?</a>
           </span>
 
             
@@ -81,6 +82,8 @@ import Layout from "../layouts/main.astro";
   <Projects />
   <Separator text="Some of my writing" />
   <Writings />
+
+  <SpeedInsights/>
 </Layout>
 
 

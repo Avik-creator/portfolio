@@ -2,6 +2,7 @@
 import PageHeading from "../components/page-heading.astro";
 import PostsLoop from "../components/posts-loop.astro";
 import Layout from "../layouts/main.astro";
+import SpeedInsights from '@vercel/speed-insights/astro';
 ---
 
 <Layout title="My Writing">
@@ -15,4 +16,5 @@ import Layout from "../layouts/main.astro";
       <PostsLoop count="10" />
     </div>
   </section>
+  <SpeedInsights/>
 </Layout>

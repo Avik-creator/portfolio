@@ -46,5 +46,17 @@
         "description": "A Taxi Booking WebApp",
         "image": "/assets/images/projects/TaxiGo.png",
         "url": "https://taxi-booking-app-ten.vercel.app/"
+    },
+    {
+        "name": "Hotel Booking App",
+        "description": "A Hotel Booking WebApp",
+        "image": "/assets/images/projects/HotelBooking.png",
+        "url": "https://github.com/Avik-creator/Hotel-Booking-App"
+    },
+    {
+        "name": "Appetizers",
+        "description": "A Food Delivery App UI",
+        "image": "/assets/images/projects/Appetizers.png",
+        "url": "https://github.com/Avik-creator/Appertizers"
     }
 ]
