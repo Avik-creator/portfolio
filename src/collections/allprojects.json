@@ -58,5 +58,11 @@
         "description": "A Food Delivery App UI",
         "image": "/assets/images/projects/Appetizers.png",
         "url": "https://github.com/Avik-creator/Appertizers"
+    },
+    {
+        "name":"Foody",
+        "description":"A Food Ordering Platform with Payment Gatway integrated using Razorpay and Stripe.",
+        "image":"/assets/images/projects/Foody.png",
+        "url":"https://food-ordering-frontend-nu.vercel.app/"
     }
 ]
