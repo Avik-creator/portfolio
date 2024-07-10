@@ -16,5 +16,11 @@
 		"description": "Helps in Tracking Cypto Prices",
 		"image": "/assets/images/projects/CoinMate.png",
 		"url": "https://coin-mate.vercel.app/"
+	},
+	{
+		"name":"Draw What you Want",
+		"description":"A Drawing App made using TlDraw SDK",
+		"image":"/assets/images/projects/DWYW.png",
+		"url":"https://dwyc.vercel.app/"
 	}
 ]
