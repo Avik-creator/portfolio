@@ -60,15 +60,21 @@
         "url": "https://github.com/Avik-creator/Appertizers"
     },
     {
-        "name":"Foody",
-        "description":"A Food Ordering Platform with Payment Gatway integrated using Razorpay and Stripe.",
-        "image":"/assets/images/projects/Foody.png",
-        "url":"https://food-ordering-frontend-nu.vercel.app/"
+        "name": "Foody",
+        "description": "A Food Ordering Platform with Payment Gatway integrated using Razorpay and Stripe.",
+        "image": "/assets/images/projects/Foody.png",
+        "url": "https://food-ordering-frontend-nu.vercel.app/"
     },
     {
-        "name":"Sorter",
-        "description":"I built this application because I was fascinated by sorting algorithms, and I wanted to visualize them in action.",
-        "image":"/assets/images/projects/Sorter.png",
-        "url":"https://sorting-visualizer-three-olive.vercel.app/"
+        "name": "Sorter",
+        "description": "I built this application because I was fascinated by sorting algorithms, and I wanted to visualize them in action.",
+        "image": "/assets/images/projects/Sorter.png",
+        "url": "https://sorting-visualizer-three-olive.vercel.app/"
+    },
+    {
+        "name": "Draw What you Want",
+        "description": "A Drawing App made using TlDraw SDK",
+        "image": "/assets/images/projects/DWYW.png",
+        "url": "https://dwyc.vercel.app/"
     }
 ]
