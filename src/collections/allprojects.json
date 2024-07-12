@@ -76,5 +76,11 @@
         "description": "A Drawing App made using TlDraw SDK",
         "image": "/assets/images/projects/DWYW.png",
         "url": "https://dwyc.vercel.app/"
+    },
+    {
+        "name":"Youtube Downloader",
+        "description":"A Website which allows you to download youtube videos in different formats",
+        "image":"/assets/images/projects/YoutubeDownloader.png",
+        "url":"https://youtube-downloader-ebon.vercel.app/"
     }
 ]
