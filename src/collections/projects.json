@@ -1,10 +1,10 @@
 [
 	{
-		"name": "SocialSphere",
-		"description": "A SocialMedia Platform.",
-		"image": "/assets/images/projects/SocialSphere.png",
-		"url": "https://social-sphere-rouge.vercel.app/"
-	},
+        "name": "Foody",
+        "description": "A Food Ordering Platform with Payment Gatway integrated using Razorpay and Stripe.",
+        "image": "/assets/images/projects/Foody.png",
+        "url": "https://food-ordering-frontend-nu.vercel.app/"
+    },
 	{
 		"name": "Avik'sBlog",
 		"description": "A Blogging webApp for my Personal Blogs.",

@@ -82,5 +82,11 @@
         "description":"A Website which allows you to download youtube videos in different formats",
         "image":"/assets/images/projects/YoutubeDownloader.png",
         "url":"https://youtube-downloader-ebon.vercel.app/"
-    }
+    },
+    {
+		"name":"Socials",
+		"description":"An Open Source Way to Manage your Links.",
+		"image":"/assets/images/projects/Socials.png",
+		"url":"https://socials-gray.vercel.app/"
+	}
 ]
