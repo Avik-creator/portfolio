@@ -6,7 +6,8 @@ export const getAllPosts = async () => {
 
   const allPosts = await client.request(
     gql`
-      query allPosts {
+      query post
+  {
         publication(host: "avik.hashnode.dev") {
           title
           posts(first: 20) {
@@ -27,7 +28,7 @@ export const getAllPosts = async () => {
             }
           }
         }
-      }
+}
     `
   );
 
